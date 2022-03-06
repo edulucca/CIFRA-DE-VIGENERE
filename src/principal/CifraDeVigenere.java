@@ -86,6 +86,7 @@ public class CifraDeVigenere {
 
 	private static String lerTexto(BufferedReader leitor) {
 		String retorno = "";
+		//Entrada de dados
 		try {
 			System.out.println("Digite um texto: ");
 			retorno = leitor.readLine();
